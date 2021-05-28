@@ -10,7 +10,7 @@ function App(props) {
     e.preventDefault();
     try {
       const response = await axios.get(`https://newsapi.org/v2/everything?q=${
-        state != null ? state : "undefined"
+        state.length != 0 ? state : "undefined"
       }&apiKey=${apiKey}
 `);
       if (response) {
