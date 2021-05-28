@@ -1,0 +1,25 @@
+.container3{
+    background-color: white;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+.container3__image>img{
+  object-fit: cover;
+  height: 20vh;
+  width: 100%;
+  border-radius: 1rem;
+}
+.container3__content{
+  padding: 1rem;
+}
+.container3__content p{
+  overflow-y: scroll;
+text-align: justify;
+align-self: center;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+    
+    

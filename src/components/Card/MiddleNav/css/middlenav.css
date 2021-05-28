@@ -1,0 +1,34 @@
+    .container2{
+    margin: 2rem;
+      height: 100%;
+    color: #000;
+    
+    }
+    .container2__contents{
+          background-color:white;
+              border-radius: 1rem;
+    }
+    .container2__paragraph{
+      text-align: justify;
+      padding-left: 2rem;
+        padding-right: 2rem;
+    
+    }
+    .container2__image{
+        border-radius: 1rem;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    }
+    @media only screen and (max-width: 768px) {
+      .Card__footerResponsive{
+        display: none;
+      }
+      .container2{
+        margin-bottom: 4rem;
+      }   
+      }
+      ::-webkit-scrollbar {
+          display: none;
+      }
+      

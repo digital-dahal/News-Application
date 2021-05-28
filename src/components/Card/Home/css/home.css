@@ -1,0 +1,42 @@
+.Card{
+    display: flex;
+  }
+  .Card__flex{
+    flex: 33%;
+display: flex;
+overflow-y:scroll ;
+height: 102vh;
+flex-direction: column;
+}
+
+.realte__style{
+ border: 1px;
+ padding: 0.7rem;
+ border-radius: 1rem;
+ background-color: white;
+  position: relative;
+  align-self: center;
+  top: 1rem;
+  }
+  .Card__flex__right{
+    display: flex;
+    overflow-y:scroll ;
+    height: 102vh;
+    flex-direction: column;
+      flex: 15%;
+  }
+  .Relate__style{
+    overflow-y: scroll;
+  }
+  @media only screen and (max-width: 768px) {
+    .Card{
+      display: flex;
+      flex-direction: row;
+    }
+    .Card__footerResponsive{
+      display: none;
+    }
+    .Card__flex__right{
+      flex:0;
+    }
+    }

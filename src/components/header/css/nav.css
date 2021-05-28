@@ -1,0 +1,88 @@
+
+.NavBar {
+  height: 86px;
+    border-bottom: 2px solid black;
+margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+}
+.NavBar .NavBar__left {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.NavBar__left > .NavBar__links {
+  display: flex;
+}
+.NavBar__left > #hidden {
+  display: flex;
+}
+.NavBar__links a {
+  color: #6f6f6f;
+  margin-left: 4rem;
+  text-decoration: none;
+}
+.NavBar__links i {
+  color: #d82645;
+  margin-left: 15px;
+  top: 5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.NavBar .NavBar__left .bar {
+  margin-left: 2rem;
+  display: none;
+}
+.NavBar .NavBar__right {
+  flex: 50%;
+  justify-content: flex-end;
+  margin-right: 4rem;
+  display: flex;
+  align-items: center;
+}
+.NavBar__right input {
+  height: 2rem;
+  border: none;
+  width: 220px;
+  outline: none;
+  padding-left: 1.7rem;
+  background-color: rgb(125, 125, 125, 0.2);
+  border-radius: 1rem;
+}
+
+.NavBar__right i {
+  position: relative;
+  left: 1.6rem;
+}
+@media only screen and (max-width: 914px) {
+  .NavBar .NavBar__links {
+    display: none;
+  }
+  .NavBar .NavBar__left .bar {
+    display: flex;
+  }
+
+  .NavBar .NavBar__left #hidden {
+    position: absolute;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(229, 229, 229);
+    height: 370px;
+  }
+  #hidden a {
+    font-size: 2rem;
+
+    margin-right: 4rem;
+    padding: 1rem;
+  }
+  #hidden a:hover {
+    text-decoration: underline;
+  }
+}
+.Home__style{
+  margin-top:5rem;
+}
